@@ -1,0 +1,16 @@
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\bin\Debug\net5.0\Interactive_Game.exe
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\bin\Debug\net5.0\Interactive_Game.deps.json
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\bin\Debug\net5.0\Interactive_Game.runtimeconfig.json
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\bin\Debug\net5.0\Interactive_Game.runtimeconfig.dev.json
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\bin\Debug\net5.0\Interactive_Game.dll
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\bin\Debug\net5.0\ref\Interactive_Game.dll
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\bin\Debug\net5.0\Interactive_Game.pdb
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\obj\Debug\net5.0\Interactive_Game.csproj.AssemblyReference.cache
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\obj\Debug\net5.0\Interactive_Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\obj\Debug\net5.0\Interactive_Game.AssemblyInfoInputs.cache
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\obj\Debug\net5.0\Interactive_Game.AssemblyInfo.cs
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\obj\Debug\net5.0\Interactive_Game.csproj.CoreCompileInputs.cache
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\obj\Debug\net5.0\Interactive_Game.dll
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\obj\Debug\net5.0\ref\Interactive_Game.dll
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\obj\Debug\net5.0\Interactive_Game.pdb
+C:\Users\erlandsson.simon\Documents\Interactive_Game\Interactive_Game\obj\Debug\net5.0\Interactive_Game.genruntimeconfig.cache
