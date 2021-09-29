@@ -9,9 +9,17 @@ namespace Interactive_Game
             string character;
 
             Boolean boolRace = true;
-            Boolean boolPriest = false;
-            Boolean boolMaffiaboss = false;
-            Boolean boolRacist = false;
+            Boolean ifChoicePriest = false;
+            string priestWeapon;
+            Boolean priestWeaponChoice = false;
+
+            Boolean ifChoiceMaffiaBoss = false;
+            string maffiaBossWeapon;
+            Boolean maffiaBossWeaponChoice = false;
+
+            Boolean ifChoiceRacist = false;
+
+            Boolean endGame = false;
 
             while (boolRace)
             {
@@ -22,16 +30,15 @@ namespace Interactive_Game
 
                 if (character == "priest" || character == "Priest")
                 {
-                    boolPriest = true;
-                    Console.WriteLine("test");
+                    ifChoicePriest = true;
                 }
                 else if (character == "maffiaboss" || character == "Maffiaboss")
                 {
-                    boolMaffiaboss = true;
+                    ifChoiceMaffiaBoss = true;
                 }
                 else if (character == "racist" || character == "Racist")
                 {
-                    boolRacist = true;
+                    ifChoiceRacist = true;
                 }
                 else
                 {
@@ -39,9 +46,58 @@ namespace Interactive_Game
                     boolRace = true;
                 }
 
-                if (boolPriest) {
-
+                if (ifChoicePriest)
+                {
+                    ifChoicePriest = false;
+                    Console.WriteLine("You chose priest");
+                    Console.WriteLine("You then walk along a long road. At the end of the road you meet a demon.");
+                    priestWeaponChoice = true;
                 }
+
+            }
+
+            while (priestWeaponChoice)
+            {
+                priestWeaponChoice = false;
+
+                Console.WriteLine("Choose a weapon: Water or a sword");
+
+                priestWeapon = Console.ReadLine();
+
+                if (priestWeapon == "water" || priestWeapon == "Water")
+                {
+                    Console.WriteLine("You realize that the water is holy water and you banish the demon. You win!");
+                    endGame = true;
+                }
+                else if (priestWeapon == "sword" || priestWeapon == "Sword" || priestWeapon == "a sword" || priestWeapon == "a Sword" || priestWeapon == "A sword" || priestWeapon == "A Sword")
+                {
+                    Console.WriteLine("The demon can't be killed by a sword, bad luck you died.");
+                    endGame = true;
+                }
+                else
+                {
+                    Console.WriteLine("You need to choose between the two weapons above!");
+                    priestWeaponChoice = true;
+                }
+            }
+
+            while (ifChoiceMaffiaBoss) {
+                ifChoiceMaffiaBoss = false;
+                Console.WriteLine("You chose maffiaboss.");
+                Console.WriteLine("You then see 50 police men at your door. You need a weapon do defend your cocainestash.");
+                maffiaBossWeaponChoice = true;
+            }
+            if(maffiaBossWeaponChoice) {
+                Console.WriteLine("Choose a weapon: a machine gun or a knife.");
+                maffiaBossWeapon = Console.ReadLine();
+
+                if(maffiaBossWeapon == "knife" || maffiaBossWeapon == "Knife" || maffiaBossWeapon == "a knife" || maffiaBossWeapon == "a Knife" || maffiaBossWeapon == "A knife" || maffiaBossWeapon == "A Knife") {
+                    
+                }
+            }
+
+            if(endGame) {
+                Console.ReadLine();
             }
         }
     }
